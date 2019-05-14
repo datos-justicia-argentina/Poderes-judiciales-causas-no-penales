@@ -113,11 +113,11 @@ Algunas provincias manejan sus propias tablas de tipo de persona jurídica.
 
 -   **persona_juridica_cuit (string):** número de cuit de la persona jurídica
 
-### Provincias y años disponibles en los poderes judiciales - causas no penales - AAAA-MM-DD
+### Provincias y años disponibles en los poderes judiciales - causas no penales
 
 -   **Nombre:** provincias-y-anios-disponibles-poder-judicial-no-penal.csv
 
--   **Descripción del contenido:** Se detallan las provincias y los años desde-hasta contenidos en las causas no penales iniciadas de los poderes judiciales al AAAA-MM-DD.
+-   **Descripción del contenido:** Se detallan las provincias y los años desde-hasta contenidos en las causas no penales iniciadas de los poderes judiciales.
 
 -   **Formato:** CSV
 
