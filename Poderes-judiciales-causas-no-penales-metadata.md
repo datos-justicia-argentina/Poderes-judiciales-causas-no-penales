@@ -1,7 +1,7 @@
 Poderes judiciales - Causas no penales
 ======================================
 
-En este conjunto de datos se presentan los datos elaborados a partir de datos primarios remitidos por los poderes judiciales provinciales, correspondientes a causas no penales, siguiendo el Protocolo Técnico de Datos y de Procesos, en el marco del Convenio Interjurisdiccional de Datos Abiertos de Justicia.
+En este conjunto de datos se presentan los datos elaborados a partir de datos primarios remitidos por los poderes judiciales provinciales, correspondientes a causas no penales, siguiendo el Protocolo Técnico de Datos y de Procesos, en el marco del Convenio Interjurisdiccional de Datos Abiertos de Justicia. Abarca las materias que no son penales, como civil, familia, comercial, contencioso administrativo, tributario, laboral, etc.
 
 http://datos.jus.gob.ar/dataset/poderes-judiciales-causas-no-penales
 
