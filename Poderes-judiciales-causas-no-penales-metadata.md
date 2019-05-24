@@ -123,6 +123,20 @@ Algunas provincias manejan sus propias tablas de tipo de persona jurídica.
 
 -   **Rango temporal:** período comprendido entre los años AAAA desde y AAAA hasta de cada provincia
 
+### Campos del recurso
+
+-   **provincia_id (string):** código de provincia del Poder Judicial en que se inicia la causa, según la codificación implementada por INDEC
+
+-   **provincia_nombre (string):** nombre de provincia del Poder Judicial en que se inició la causa
+
+-   **institucion (string):** nombre de la institución que publica
+
+-   **anio (string):** año de los casos informados
+
+-   **publica_casos_iniciados (string):** indica si la institución publica datos correspondientes a casos iniciados (recurso Poderes Judiciales - Causas no penales". Toma los valores S: Sí, N: No
+
+-   **publica_actos_procesales (string):** indica si la institución publica datos correspondientes a actos procesales (Poderes Judiciales -  - Actos Procesales de causas no penales". Toma los valores S: Sí, N: No
+
 ### Notas
 
 [Ley 27.275 - Derecho de Acceso a la Información Pública](http://servicios.infoleg.gob.ar/infolegInternet/anexos/265000-269999/265949/norma.htm)
