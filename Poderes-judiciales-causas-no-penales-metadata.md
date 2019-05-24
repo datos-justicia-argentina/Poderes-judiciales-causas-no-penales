@@ -47,7 +47,7 @@ Recursos disponibles
 
 ### Campos del recurso
 
--   **provincia_indec_id (string):** código de provincia del Poder Judicial en que se inició la causa, según la codificación implementada por INDEC
+-   **provincia_id (string):** código de provincia del Poder Judicial en que se inició la causa, según la codificación implementada por INDEC
 
 -   **provincia_nombre (string):** nombre de provincia del Poder Judicial en que se en que se inició la causa
 
