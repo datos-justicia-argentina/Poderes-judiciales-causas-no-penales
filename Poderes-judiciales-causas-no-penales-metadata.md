@@ -135,7 +135,7 @@ Algunas provincias manejan sus propias tablas de tipo de persona jurídica.
 
 -   **publica_casos_iniciados (string):** indica si la institución publica datos correspondientes a casos iniciados (contenidos en el recurso "Poderes Judiciales - Causas no penales"). Toma los valores S: Sí, N: No
 
--   **publica_actos_procesales (string):** indica si la institución publica datos correspondientes a actos procesales (contenidos en el recurso "Poderes Judiciales -  - Actos Procesales de causas no penales"). Toma los valores S: Sí, N: No
+-   **publica_actos_procesales (string):** indica si la institución publica datos correspondientes a actos procesales (contenidos en el recurso "Poderes Judiciales - Actos Procesales de causas no penales"). Toma los valores S: Sí, N: No
 
 ### Notas
 
