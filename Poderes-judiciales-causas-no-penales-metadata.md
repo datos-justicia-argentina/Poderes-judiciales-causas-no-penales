@@ -33,7 +33,11 @@ Recursos disponibles
 
 -   **Formato:** ZIP
 
--   **Rango temporal:** período comprendido entre los años AAAA
+-   **Nombre de los archivos contenidos:** poderes-judiciales-causas-no-penales-AAAA.csv
+
+-   **Rango temporal:** casos iniciados en el año AAAA
+
+-   **Observación:** la estructura de los archivos contenidos en este archivo está descripta en el recurso "Poderes Judiciales - Causas - Muestreo"
 
 ### Poderes judiciales - Causas no penales - Muestreo
 
@@ -43,7 +47,7 @@ Recursos disponibles
 
 -   **Formato:** CSV delimitado por comas, codificado en UTF-8
 
--   **Rango temporal:** muestreo de causas no penales
+-   **Rango temporal:** muestreo de causas no penales iniciadas en el último año informado por la provincia
 
 ### Campos del recurso
 
@@ -53,15 +57,24 @@ Recursos disponibles
 
 -   **causa_id (string):** código que identifica el causa. Cada provincia usa su propio formato de identificación de causa. Si se repiten los números de causa en diferentes unidades de una institución se arma un nuevo identificador concatenando la unidad, un guión y el número de causa remitido, a fin de generar una clave única de caso por provincia.
 
--   **materia_id (string):** identificador de la materia que le corresponde a la causa, según lo informado por la institución. Algunas provincias informan la materia según los identificadores sugeridos en el  en el Algunos ejemplos son: Civil/ Laboral/Familia/Tributario Fiscal/Contencioso Administrativo, etc.
+-   **materia_id (string):** identificador de la materia que le corresponde a la causa, según lo informado por la institución. Algunas provincias informan la materia según los identificadores sugeridos en el [Protocolo Técnico de Datos y de Procesos](https://github.com/datos-justicia-argentina/Protocolo-de-implementacion-Convenio-Interjurisdiccional-de-Datos-Judiciales-Abiertos-version-II/blob/master/Protocolo%20de%20Implementaci%C3%B3n%20del%20Convenio%20Interjurisdiccional%20de%20Datos%20Abiertos%20de%20Justicia%20versi%C3%B3n%20II.pdf), por ejemplo:
+	- CP - Civil Patrimonial (incluye minería)
+	- FP - Civil-Familia: personas
+	- LA - Laboral, etc.
 
--   **materia_descripcion (string):** indica la materia que le corresponde a la causa, según lo informado por la institución. Algunos ejemplos son: Civil/ Laboral/Familia/Tributario Fiscal/Contencioso Administrativo, etc.
+Algunas provincias informan el código de materia según figura en sus sistemas.
 
--   **materia_estadistica (string): agrupación efectuada con fines estadísticos, a partir de la materia informada**
+-   **materia_descripcion (string):** descripción de la materia que le corresponde a la causa
 
--   **circunscripción_descripcion (string):** indica la unidad geográfica en que está divida la institución en la que se inició la causa
+-   **materia_estadistica (string):** agrupación efectuada con fines estadísticos, a partir de la materia informada
 
--   **unidad_operativa_descripcion (string):** UOSJ – Unidad Operativa del Sistema de Justicia según lo establecido en el Protocolo Técnico de Datos. Corrsponde al código del juzgado, cámara, tribunal o unidad jusrisdiccional con competencia en la causa
+-   **circunscripción_id (string):** identificador de la circunscripción a la que pertenece la unidad en que se inició la causa. La circunscripción es la unidad territorial en que se divide la provincia a fin de la administración de justicia.
+
+-   **circunscripción_descripcion (string):** descripción de la circunscripción a la que pertenece la unidad en que se inició la causa
+
+-   **unidad_id (string):** identificador de la unidad operativa del sistema de justicia en que se inició la causa
+
+-   **unidad_descripcion (string):** descripción de la unidad operativa del sistema de justicia en que se inició la causa
 
 -   **causa_fecha_inicio (date):** fecha en que se inició la causa. Tiene el formato AAAA-MM-DD
 
