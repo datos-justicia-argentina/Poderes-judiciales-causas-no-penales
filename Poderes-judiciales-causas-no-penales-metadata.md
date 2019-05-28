@@ -55,7 +55,7 @@ Recursos disponibles
 
 -   **provincia_nombre (string):** nombre de provincia del Poder Judicial en que se en que se inició la causa
 
--   **causa_id (string):** código que identifica el causa. Cada provincia usa su propio formato de identificación de causa. Si se repiten los números de causa en diferentes unidades de una institución se arma un nuevo identificador concatenando la unidad, un guión y el número de causa remitido, a fin de generar una clave única de caso por provincia.
+-   **causa_id (string):** código que identifica la causa. Cada provincia usa su propio formato de identificación de causa. Si se repiten los números de causa en diferentes unidades de una institución se arma un nuevo identificador concatenando la unidad, un guión y el número de causa remitido, a fin de generar una clave única de causa por provincia.
 
 -   **materia_id (string):** identificador de la materia que le corresponde a la causa, según lo informado por la institución. Algunas provincias informan la materia según los identificadores sugeridos en el [Protocolo Técnico de Datos y de Procesos](https://github.com/datos-justicia-argentina/Protocolo-de-implementacion-Convenio-Interjurisdiccional-de-Datos-Judiciales-Abiertos-version-II/blob/master/Protocolo%20de%20Implementaci%C3%B3n%20del%20Convenio%20Interjurisdiccional%20de%20Datos%20Abiertos%20de%20Justicia%20versi%C3%B3n%20II.pdf), por ejemplo:
 	- CP - Civil Patrimonial (incluye minería)
@@ -76,54 +76,37 @@ Algunas provincias informan el código de materia según figura en sus sistemas.
 
 -   **unidad_descripcion (string):** descripción de la unidad operativa del sistema de justicia en que se inició la causa
 
--   **causa_fecha_inicio (date):** fecha en que se inició la causa. Tiene el formato AAAA-MM-DD
+-   **objeto_litigio_id (string):** identificador del objeto de litigio que da inicio a la causa. Algunos ejemplos son: Amparo/Cobro de honorarios/Violencia familiar/Daños y perjuicios, etc.
 
--   **objeto_litigio_descripcion (string):** objeto por el cual se da inicio a la causa. Algunos ejemplos son: Amparo/Cobro de honorarios/Violencia familiar/Daños y perjuicios, etc.
+-   **objeto_litigio_descripcion (string):** descripción del objeto que da inicio a la causa.
 
 -   **objeto_litigio_estadistico (string):** agrupación efectuada con fines estadísticos, a partir del objeto de litigio informado
 
 -   **parte_tipo (string):** indica el rol procesal de las partes. Puede tomar los valores:
-
-    -   Actor
-
-    -   Demandado
-
-    -   Citado en garntía
+  	- Actor
+	- Demandado
+	- Citado en garantía
 
 -   **persona_tipo (string):** indica el tipo de persona. Puede tomar los valores:
-
-    -   Persona Física
-
-    -   Persona Jurídica
+	- Persona física
+	- Persona jurídica
 
 -   **persona_fisica_edad (string):** edad de la persona física vinculada a la causa. Si el denunciado es mayor de 65 años toma el valor 65+
 
 -   **persona_fisica_genero (string):** género de la persona física vinculada a la causa. Toma los valores "M" para masculino y "F" para femenino
 
 -   **persona_juridica_tipo (string):** tipo de persona jurídica. Puede tomar los valores:
-
-    -   Estado Nacional
-
-    -   Estado Provincial
-
-    -   Entes descentralizados Estado Nacional
-
-    -   Entes descentralizados Estado Provincial
-
-    -   Asociación Civil
-
-    -   Asociación Sindical
-
-    -   Fundación
-
-    -   Sociedad Comercial
-
-    -   Municipalidad
-
-    -   Consorcio de Propietarios
-
-    -   Otros
-
+	- Estado Nacional
+	- Estado Provincial
+	- Entes descentralizados Estado Nacional
+	- Entes descentralizados Estado Provincial
+	- Asociación Civil
+	- Asociación Sindical
+	- Fundación
+	- Sociedad Comercial
+	- Municipalidad
+	- Consorcio de Propietarios
+	- Otros
 Algunas provincias manejan sus propias tablas de tipo de persona jurídica.
 
 -   **persona_juridica_cuit (string):** número de cuit de la persona jurídica
