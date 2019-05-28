@@ -57,11 +57,10 @@ Recursos disponibles
 
 -   **causa_id (string):** código que identifica la causa. Cada provincia usa su propio formato de identificación de causa. Si se repiten los números de causa en diferentes unidades de una institución se arma un nuevo identificador concatenando la unidad, un guión y el número de causa remitido, a fin de generar una clave única de causa por provincia.
 
--   **materia_id (string):** identificador de la materia que le corresponde a la causa, según lo informado por la institución. Algunas provincias informan la materia según los identificadores sugeridos en el [Protocolo Técnico de Datos y de Procesos](https://github.com/datos-justicia-argentina/Protocolo-de-implementacion-Convenio-Interjurisdiccional-de-Datos-Judiciales-Abiertos-version-II/blob/master/Protocolo%20de%20Implementaci%C3%B3n%20del%20Convenio%20Interjurisdiccional%20de%20Datos%20Abiertos%20de%20Justicia%20versi%C3%B3n%20II.pdf), por ejemplo:
+-   **materia_id (string):** identificador de la materia que le corresponde a la causa, según lo informado por la institución. Algunas provincias informan la materia según los identificadores propuestos en el [Protocolo Técnico de Datos y de Procesos](https://github.com/datos-justicia-argentina/Protocolo-de-implementacion-Convenio-Interjurisdiccional-de-Datos-Judiciales-Abiertos-version-II/blob/master/Protocolo%20de%20Implementaci%C3%B3n%20del%20Convenio%20Interjurisdiccional%20de%20Datos%20Abiertos%20de%20Justicia%20versi%C3%B3n%20II.pdf), por ejemplo:
 	- CP - Civil Patrimonial (incluye minería)
 	- FP - Civil-Familia: personas
 	- LA - Laboral, etc.
-
 Algunas provincias informan el código de materia según figura en sus sistemas.
 
 -   **materia_descripcion (string):** descripción de la materia que le corresponde a la causa
@@ -95,7 +94,7 @@ Algunas provincias informan el código de materia según figura en sus sistemas.
 
 -   **persona_fisica_genero (string):** género de la persona física vinculada a la causa. Toma los valores "M" para masculino y "F" para femenino
 
--   **persona_juridica_tipo (string):** tipo de persona jurídica. Puede tomar los valores:
+-   **persona_juridica_tipo (string):** tipo de persona jurídica. Algunas provincias informan el tipo de persona jurídica según la clasificación propuesta en el [Protocolo Técnico de Datos y de Procesos](https://github.com/datos-justicia-argentina/Protocolo-de-implementacion-Convenio-Interjurisdiccional-de-Datos-Judiciales-Abiertos-version-II/blob/master/Protocolo%20de%20Implementaci%C3%B3n%20del%20Convenio%20Interjurisdiccional%20de%20Datos%20Abiertos%20de%20Justicia%20versi%C3%B3n%20II.pdf), por ejemplo:
 	- Estado Nacional
 	- Estado Provincial
 	- Entes descentralizados Estado Nacional
@@ -107,7 +106,7 @@ Algunas provincias informan el código de materia según figura en sus sistemas.
 	- Municipalidad
 	- Consorcio de Propietarios
 	- Otros
-Algunas provincias manejan sus propias tablas de tipo de persona jurídica.
+Algunas provincias informan el tipo de persona jurídica clasificada según figura en sus sistemas
 
 -   **persona_juridica_cuit (string):** número de cuit de la persona jurídica
 
