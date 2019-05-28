@@ -1,7 +1,7 @@
 Poderes judiciales - Causas no penales
 ======================================
 
-En este conjunto de datos se presentan los datos elaborados a partir de datos primarios remitidos por los poderes judiciales provinciales, correspondientes a causas no penales, siguiendo el Protocolo Técnico de Datos y de Procesos, en el marco del Convenio Interjurisdiccional de Datos Abiertos de Justicia. Abarca las materias que no son penales, como civil, familia, comercial, contencioso administrativo, tributario, laboral, etc.
+En este conjunto de datos se presentan los datos obtenidos a partir de datos primarios remitidos por los poderes judiciales provinciales, correspondientes a causas no penales, siguiendo el [Protocolo Técnico de Datos y de Procesos](https://github.com/datos-justicia-argentina/Protocolo-de-implementacion-Convenio-Interjurisdiccional-de-Datos-Judiciales-Abiertos-version-II/blob/master/Protocolo%20de%20Implementaci%C3%B3n%20del%20Convenio%20Interjurisdiccional%20de%20Datos%20Abiertos%20de%20Justicia%20versi%C3%B3n%20II.pdf), en el marco del [Convenio Interjurisdiccional de Datos Abiertos de Justicia](https://github.com/datos-justicia-argentina/Convenio-Interjurisdiccional-de-Datos-Judiciales-Abiertos/blob/master/Convenio%20Interjurisdiccional%20de%20Datos%20Abiertos%20de%20Justicia.pdf). Abarca las materias que no son penales, como civil, familia, comercial, contencioso administrativo, tributario, laboral, etc.
 
 http://datos.jus.gob.ar/dataset/poderes-judiciales-causas-no-penales
 
@@ -27,9 +27,9 @@ Recursos disponibles
 
 ### Poderes Judiciales - causas no penales
 
--   **Nombre:** pj-causas-no-penales-iniciadas.zip
+-   **Nombre:** poderes-judiciales-causas-no-penales.zip
 
--   **Descripción del contenido:** Datos correspondientes a causas no penales elaborados a partir de datos primarios remitidos por los poderes judiciales provinciales.
+-   **Descripción del contenido:** Datos correspondientes a causas no penales obtenidos a partir de datos primarios remitidos por los poderes judiciales provinciales.
 
 -   **Formato:** ZIP
 
@@ -37,13 +37,13 @@ Recursos disponibles
 
 ### Poderes judiciales - Causas no penales - Muestreo
 
--   **Nombre:** pj-causas-no-penales-iniciadas-muestreo.csv
+-   **Nombre:** poderes-judiciales-causas-no-penales-muestreo.csv
 
--   **Descripción del contenido:** Muestreo de 1000 datos, elaborados a partir de datos primarios remitidos por los poderes judiciales provinciales, correspondientes a causas no penales. Los datos completos están publicados en formato zip.
+-   **Descripción del contenido:** Muestreo de 1000 datos, obtenidos a partir de datos primarios remitidos por los poderes judiciales provinciales, correspondientes a causas no penales. Los datos completos están publicados en formato zip.
 
 -   **Formato:** CSV delimitado por comas, codificado en UTF-8
 
--   **Rango temporal:** muestreo de causas no penales iniciadas en el año AAAA
+-   **Rango temporal:** muestreo de causas no penales
 
 ### Campos del recurso
 
@@ -51,7 +51,9 @@ Recursos disponibles
 
 -   **provincia_nombre (string):** nombre de provincia del Poder Judicial en que se en que se inició la causa
 
--   **causa_id (string):** código que identifica la causa. Cada provincia usa su propio formato de identificación de causa
+-   **causa_id (string):** código que identifica el causa. Cada provincia usa su propio formato de identificación de causa. Si se repiten los números de causa en diferentes unidades de una institución se arma un nuevo identificador concatenando la unidad, un guión y el número de causa remitido, a fin de generar una clave única de caso por provincia.
+
+-   **materia_id (string):** identificador de la materia que le corresponde a la causa, según lo informado por la institución. Algunas provincias informan la materia según los identificadores sugeridos en el  en el Algunos ejemplos son: Civil/ Laboral/Familia/Tributario Fiscal/Contencioso Administrativo, etc.
 
 -   **materia_descripcion (string):** indica la materia que le corresponde a la causa, según lo informado por la institución. Algunos ejemplos son: Civil/ Laboral/Familia/Tributario Fiscal/Contencioso Administrativo, etc.
 
