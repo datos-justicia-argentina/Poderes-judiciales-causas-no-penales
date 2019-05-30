@@ -122,7 +122,7 @@ Algunas provincias informan el tipo de persona jurídica clasificada según figu
 
 -   **Formato:** CSV delimitado por comas, codificado en UTF-8 BOM
 
--   **Rango temporal:** período comprendido entre los años AAAA desde y AAAA hasta de cada provincia
+-   **Rango temporal:** cada uno de los años informados para cada provincia
 
 ### Campos del recurso
 
