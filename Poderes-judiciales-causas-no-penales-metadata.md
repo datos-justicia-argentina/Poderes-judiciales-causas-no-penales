@@ -29,15 +29,15 @@ Recursos disponibles
 
 -   **Nombre:** poderes-judiciales-causas-no-penales.zip
 
--   **Descripción del contenido:** Datos correspondientes a causas no penales obtenidos a partir de datos primarios remitidos por los poderes judiciales provinciales.
+-   **Descripción del contenido:** Contiene los archivos con los datos elaborados a partir de datos primarios remitidos por los poderes judiciales, correspondientes a causas no penales.
 
 -   **Formato:** ZIP
 
 -   **Nombre de los archivos contenidos:** poderes-judiciales-causas-no-penales-AAAA.csv
 
--   **Rango temporal:** casos iniciados en el año AAAA
+-   **Rango temporal:** causas no penales iniciadas en el año AAAA
 
--   **Observación:** la estructura de los archivos contenidos en este archivo está descripta en el recurso "Poderes Judiciales - Causas - Muestreo"
+-   **Observación:** la estructura de los archivos contenidos en este zip está descripta en el recurso "Poderes Judiciales - Causas no penales - muestreo"
 
 ### Poderes judiciales - Causas no penales - Muestreo
 
@@ -75,6 +75,8 @@ Algunas provincias informan el código de materia según figura en sus sistemas.
 
 -   **unidad_descripcion (string):** descripción de la unidad operativa del sistema de justicia en que se inició la causa
 
+-   **causa_fecha_inicio (date):** fecha de inicio de la causa
+
 -   **objeto_litigio_id (string):** identificador del objeto de litigio que da inicio a la causa. Algunos ejemplos son: Amparo/Cobro de honorarios/Violencia familiar/Daños y perjuicios, etc.
 
 -   **objeto_litigio_descripcion (string):** descripción del objeto que da inicio a la causa.
@@ -90,11 +92,11 @@ Algunas provincias informan el código de materia según figura en sus sistemas.
 	- Persona física
 	- Persona jurídica
 
--   **persona_fisica_edad (string):** edad de la persona física vinculada a la causa. Si el denunciado es mayor de 65 años toma el valor 65+
+-   **persona_fisica_edad (string):** edad de la persona física vinculada a la causa. Toma valor cuando se trata de una persona física. Si el denunciado es mayor de 65 años toma el valor 65+
 
--   **persona_fisica_genero (string):** género de la persona física vinculada a la causa. Toma los valores "M" para masculino y "F" para femenino
+-   **persona_fisica_genero (string):** género de la persona física vinculada a la causa. Toma valor cuando se trata de una persona física. Toma los valores "M" para masculino y "F" para femenino
 
--   **persona_juridica_tipo (string):** tipo de persona jurídica. Algunas provincias informan el tipo de persona jurídica según la clasificación propuesta en el [Protocolo Técnico de Datos y de Procesos](https://github.com/datos-justicia-argentina/Protocolo-de-implementacion-Convenio-Interjurisdiccional-de-Datos-Judiciales-Abiertos-version-II/blob/master/Protocolo%20de%20Implementaci%C3%B3n%20del%20Convenio%20Interjurisdiccional%20de%20Datos%20Abiertos%20de%20Justicia%20versi%C3%B3n%20II.pdf), por ejemplo:
+-   **persona_juridica_tipo (string):** tipo de persona jurídica. Toma valor cuando se trata de una persona jurídica. Algunas provincias informan el tipo de persona jurídica según la clasificación propuesta en el [Protocolo Técnico de Datos y de Procesos](https://github.com/datos-justicia-argentina/Protocolo-de-implementacion-Convenio-Interjurisdiccional-de-Datos-Judiciales-Abiertos-version-II/blob/master/Protocolo%20de%20Implementaci%C3%B3n%20del%20Convenio%20Interjurisdiccional%20de%20Datos%20Abiertos%20de%20Justicia%20versi%C3%B3n%20II.pdf), por ejemplo:
 	- Estado Nacional
 	- Estado Provincial
 	- Entes descentralizados Estado Nacional
@@ -108,15 +110,17 @@ Algunas provincias informan el código de materia según figura en sus sistemas.
 	- Otros
 Algunas provincias informan el tipo de persona jurídica clasificada según figura en sus sistemas
 
--   **persona_juridica_cuit (string):** número de cuit de la persona jurídica
+-   **persona_juridica_cuit (string):** número de cuit de la persona jurídica. Toma valor cuando se trata de una persona jurídica.
 
-### Provincias y años disponibles en los poderes judiciales - causas no penales
+-   **fecha_envio (string):** fecha en que la institución remitió el paquete de datos al Ministerio de Justicia y Derechos Humanos de la Nación
 
--   **Nombre:** provincias-y-anios-disponibles-poder-judicial-no-penal.csv
+### Poderes Judiciales - provincias y años disponibles - causas no penales
 
--   **Descripción del contenido:** Se detallan las provincias y los años desde-hasta contenidos en las causas no penales iniciadas de los poderes judiciales.
+-   **Nombre:** poderes-judiciales-provincias-y-anios-disponibles-causas-no-penales.csv
 
--   **Formato:** CSV
+-   **Descripción del contenido:** Índice de provincias y años disponibles publicados
+
+-   **Formato:** CSV delimitado por comas, codificado en UTF-8 BOM
 
 -   **Rango temporal:** período comprendido entre los años AAAA desde y AAAA hasta de cada provincia
 
@@ -128,9 +132,9 @@ Algunas provincias informan el tipo de persona jurídica clasificada según figu
 
 -   **institucion (string):** nombre de la institución que publica
 
--   **anio (string):** año de los casos informados
+-   **anio (string):** año de las causas o de los actos procesales informados
 
--   **publica_casos_iniciados (string):** indica si la institución publica datos correspondientes a casos iniciados (contenidos en el recurso "Poderes Judiciales - Causas no penales"). Toma los valores S: Sí, N: No
+-   **publica_causas_iniciadas (string):** indica si la institución publica datos correspondientes a causas iniciadas (contenidos en el recurso "Poderes Judiciales - Causas no penales"). Toma los valores S: Sí, N: No
 
 -   **publica_actos_procesales (string):** indica si la institución publica datos correspondientes a actos procesales (contenidos en el recurso "Poderes Judiciales - Actos Procesales de causas no penales"). Toma los valores S: Sí, N: No
 
