@@ -43,7 +43,7 @@ Recursos disponibles
 
 -   **Nombre:** poderes-judiciales-causas-no-penales-muestreo.csv
 
--   **Descripción del contenido:** Muestreo de 1000 datos, obtenidos a partir de datos primarios remitidos por los poderes judiciales provinciales, correspondientes a causas no penales. Los datos completos están publicados en formato zip.
+-   **Descripción del contenido:** Muestreo de 1000 registros, obtenidos a partir de datos primarios remitidos por los poderes judiciales provinciales, correspondientes a causas no penales. Los datos completos están publicados en formato zip.
 
 -   **Formato:** CSV delimitado por comas, codificado en UTF-8
 
