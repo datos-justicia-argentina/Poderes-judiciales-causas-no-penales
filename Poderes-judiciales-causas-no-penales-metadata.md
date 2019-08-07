@@ -20,7 +20,7 @@ Características
 
 -   **Grupo:** Instituciones de Justicia
 
--   **Frecuencia de Actualización:** Mensualmente
+-   **Frecuencia de Actualización:** Eventual
 
 Recursos disponibles
 --------------------
