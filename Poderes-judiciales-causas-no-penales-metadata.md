@@ -1,7 +1,7 @@
 Poderes judiciales - Causas no penales
 ======================================
 
-En este conjunto de datos se presentan los datos obtenidos a partir de datos primarios remitidos por los poderes judiciales provinciales, correspondientes a causas no penales, siguiendo el [Protocolo Técnico de Datos y de Procesos](https://github.com/datos-justicia-argentina/Protocolo-de-implementacion-Convenio-Interjurisdiccional-de-Datos-Judiciales-Abiertos-version-II/blob/master/Protocolo%20de%20Implementaci%C3%B3n%20del%20Convenio%20Interjurisdiccional%20de%20Datos%20Abiertos%20de%20Justicia%20versi%C3%B3n%20II.pdf), en el marco del [Convenio Interjurisdiccional de Datos Abiertos de Justicia](https://github.com/datos-justicia-argentina/Convenio-Interjurisdiccional-de-Datos-Judiciales-Abiertos/blob/master/Convenio%20Interjurisdiccional%20de%20Datos%20Abiertos%20de%20Justicia.pdf). Abarca las materias que no son penales, como civil, familia, comercial, contencioso administrativo, tributario, laboral, etc.
+En este conjunto de datos se presentan los datos obtenidos a partir de datos primarios remitidos por los poderes judiciales provinciales, correspondientes a causas no penales, siguiendo el Protocolo Técnico de Datos y de Procesos, en el marco del Convenio Interjurisdiccional de Datos Abiertos de Justicia. Abarca las materias que no son penales, como civil, familia, comercial, contencioso administrativo, tributario, laboral, etc.
 
 http://datos.jus.gob.ar/dataset/poderes-judiciales-causas-no-penales
 
@@ -57,7 +57,7 @@ Recursos disponibles
 
 -   **causa_id (string):** código que identifica la causa. Cada provincia usa su propio formato de identificación de causa. Si se repiten los números de causa en diferentes unidades de una institución se arma un nuevo identificador concatenando la unidad, un guión y el número de causa remitido, a fin de generar una clave única de causa por provincia.
 
--   **materia_id (string):** identificador de la materia que le corresponde a la causa, según lo informado por la institución. Algunas provincias informan la materia según los identificadores propuestos en el [Protocolo Técnico de Datos y de Procesos](https://github.com/datos-justicia-argentina/Protocolo-de-implementacion-Convenio-Interjurisdiccional-de-Datos-Judiciales-Abiertos-version-II/blob/master/Protocolo%20de%20Implementaci%C3%B3n%20del%20Convenio%20Interjurisdiccional%20de%20Datos%20Abiertos%20de%20Justicia%20versi%C3%B3n%20II.pdf), por ejemplo:
+-   **materia_id (string):** identificador de la materia que le corresponde a la causa, según lo informado por la institución. Algunas provincias informan la materia según los identificadores propuestos en el Protocolo Técnico de Datos y de Procesos, por ejemplo:
 	- CP - Civil Patrimonial (incluye minería)
 	- FP - Civil-Familia: personas
 	- LA - Laboral, etc.
@@ -96,7 +96,7 @@ Algunas provincias informan el código de materia según figura en sus sistemas.
 
 -   **persona_fisica_genero (string):** género de la persona física vinculada a la causa. Toma valor cuando se trata de una persona física. Toma los valores "M" para masculino y "F" para femenino
 
--   **persona_juridica_tipo (string):** tipo de persona jurídica. Toma valor cuando se trata de una persona jurídica. Algunas provincias informan el tipo de persona jurídica según la clasificación propuesta en el [Protocolo Técnico de Datos y de Procesos](https://github.com/datos-justicia-argentina/Protocolo-de-implementacion-Convenio-Interjurisdiccional-de-Datos-Judiciales-Abiertos-version-II/blob/master/Protocolo%20de%20Implementaci%C3%B3n%20del%20Convenio%20Interjurisdiccional%20de%20Datos%20Abiertos%20de%20Justicia%20versi%C3%B3n%20II.pdf), por ejemplo:
+-   **persona_juridica_tipo (string):** tipo de persona jurídica. Toma valor cuando se trata de una persona jurídica. Algunas provincias informan el tipo de persona jurídica según la clasificación propuesta en el Protocolo Técnico de Datos y de Procesos, por ejemplo:
 	- Estado Nacional
 	- Estado Provincial
 	- Entes descentralizados Estado Nacional
@@ -147,6 +147,8 @@ Algunas provincias informan el tipo de persona jurídica clasificada según figu
 [Protocolo de implementación del convenio interjurisdiccional de datos abiertos de justicia - Versión I](https://github.com/datos-justicia-argentina/Protocolo-de-implementacion-Convenio-Interjurisdiccional-de-Datos-Judiciales-Abiertos/blob/master/Protocolo%20de%20Implementaci%C3%B3n%20del%20Convenio%20Interjurisdiccional%20de%20Datos%20Abiertos%20de%20Justicia.pdf)
 
 [Protocolo de implementación del convenio interjurisdiccional de datos abiertos de justicia - Versión II](https://github.com/datos-justicia-argentina/Protocolo-de-implementacion-Convenio-Interjurisdiccional-de-Datos-Judiciales-Abiertos-version-II/blob/master/Protocolo%20de%20Implementaci%C3%B3n%20del%20Convenio%20Interjurisdiccional%20de%20Datos%20Abiertos%20de%20Justicia%20versi%C3%B3n%20II.pdf)
+
+[Protocolo de implementación del convenio interjurisdiccional de datos abiertos de justicia - Versión III](https://github.com/datos-justicia-argentina/Protocolo-de-implementacion-Convenio-Interjurisdiccional-de-Datos-Judiciales-Abiertos-version-III/blob/main/Protocolo%20de%20Implementaci%C3%B3n%20del%20Convenio%20Inertjurisdiccional%20de%20Datos%20Abiertos%20de%20Justicia%20versi%C3%B3n%20III.pdf)
 
 [Código Penal de la Nación Ley - 11.179](http://servicios.infoleg.gob.ar/infolegInternet/anexos/15000-19999/16546/texact.htm)
 
