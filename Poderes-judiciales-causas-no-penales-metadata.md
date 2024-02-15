@@ -10,7 +10,7 @@ Características
 
 -   **Fecha de Primera Publicación:** 10/05/2019
 
--   **Tags o Etiquetas:** Buenos Aires, Catamarca, Chaco, Chubut, Ciudad Autónoma de Buenos Aires, Corrientes, Córdoba, Entre Ríos, Formosa, Jujuy, La Pampa, La Rioja, Mendoza, Misiones, Neuquén, Río Negro, Salta, San Juan, San Luis, Santa Cruz, Santa Fe, Santiago del Estero, Tierra del Fuego, Tucumán, causas, código penal, instituciones, poderes judiciales,
+-   **Tags o Etiquetas:** causas, civil, instituciones, poderes judiciales
 
 -   **Organización:** Ministerio de Justicia y Derechos Humanos. Secretaría de Justicia. Subsecretaría de Política Criminal. Programa Justicia Abierta
 
