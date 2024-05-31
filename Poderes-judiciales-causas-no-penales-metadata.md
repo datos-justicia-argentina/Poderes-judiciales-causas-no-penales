@@ -12,11 +12,11 @@ Características
 
 -   **Tags o Etiquetas:** causas, civil, instituciones, poderes judiciales
 
--   **Organización:** Ministerio de Justicia y Derechos Humanos. Secretaría de Justicia. Subsecretaría de Política Criminal. Programa Justicia Abierta
+-   **Organización:** Ministerio de Justicia. Secretaría de Justicia. Subsecretaría de Política Criminal
 
--   **Autor:** Ministerio de Justicia y Derechos Humanos. Secretaría de Justicia. Subsecretaría de Política Criminal. Programa Justicia Abierta
+-   **Autor:** Ministerio de Justicia. Secretaría de Justicia. Subsecretaría de Política Criminal
 
--   **Responsable:** Ministerio de Justicia y Derechos Humanos. Secretaría de Justicia. Subsecretaría de Política Criminal. Programa Justicia Abierta
+-   **Responsable:** Ministerio de Justicia. Secretaría de Justicia. Subsecretaría de Política Criminal
 
 -   **Grupo:** Instituciones de Justicia
 
