@@ -12,11 +12,11 @@ Características
 
 -   **Tags o Etiquetas:** causas, civil, instituciones, poderes judiciales
 
--   **Organización:** Ministerio de Justicia. Secretaría de Justicia. Subsecretaría de Política Criminal
+-   **Organización:** Ministerio de Justicia
 
--   **Autor:** Ministerio de Justicia. Secretaría de Justicia. Subsecretaría de Política Criminal
+-   **Autor:** Ministerio de Justicia
 
--   **Responsable:** Ministerio de Justicia. Secretaría de Justicia. Subsecretaría de Política Criminal
+-   **Responsable:** Ministerio de Justicia
 
 -   **Grupo:** Instituciones de Justicia
 
@@ -112,7 +112,7 @@ Algunas provincias informan el tipo de persona jurídica clasificada según figu
 
 -   **persona_juridica_cuit (string):** número de cuit de la persona jurídica. Toma valor cuando se trata de una persona jurídica.
 
--   **fecha_envio (string):** fecha en que la institución remitió el paquete de datos al Ministerio de Justicia y Derechos Humanos de la Nación
+-   **fecha_envio (string):** fecha en que la institución remitió el paquete de datos al Ministerio de Justicia de la Nación
 
 ### Poderes Judiciales - provincias y años disponibles - causas no penales
 
