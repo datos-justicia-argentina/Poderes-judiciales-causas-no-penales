@@ -25,11 +25,11 @@ Características
 Recursos disponibles
 --------------------
 
-### Poderes Judiciales - causas no penales
+### Poderes Judiciales - causas no penales 2024-2025
 
--   **Nombre:** poderes-judiciales-causas-no-penales.zip
+-   **Nombre:** poderes-judiciales-causas-no-penales-2024-2025.zip
 
--   **Descripción del contenido:** Contiene los archivos con los datos elaborados a partir de datos primarios remitidos por los poderes judiciales, correspondientes a causas no penales.
+-   **Descripción del contenido:** Contiene los archivos con los datos elaborados a partir de datos primarios remitidos por los poderes judiciales, correspondientes a causas no penales, años 2024 y 2025.
 
 -   **Formato:** ZIP
 
@@ -38,6 +38,46 @@ Recursos disponibles
 -   **Rango temporal:** causas no penales iniciadas en el año AAAA
 
 -   **Observación:** la estructura de los archivos contenidos en este zip está descripta en el recurso "Poderes Judiciales - Causas no penales - muestreo"
+
+
+### Poderes judiciales - Actos procesales de causas no penales 2024-2025
+
+-   **Nombre:** poderes-judiciales-actos-procesales-no-penales-2024-2025.zip
+
+-   **Descripción del contenido:** Contiene los archivos con los datos correspondientes a actos procesales de causas no penales, elaborados a partir de datos primarios remitidos por los poderes judiciales provinciales, años 2024 y 2025.
+
+-   **Formato:** ZIP
+
+-   **Nombre de los archivos contenidos:** poderes-judiciales-actos-procesales-no-penales-AAAA.csv
+
+-   **Rango temporal:** actos procesales realizados en el año AAAA
+
+### Poderes Judiciales - causas no penales 2013-2023
+
+-   **Nombre:** poderes-judiciales-causas-no-penales-2013-2023.zip
+
+-   **Descripción del contenido:** Contiene los archivos con los datos elaborados a partir de datos primarios remitidos por los poderes judiciales, correspondientes a causas no penales, entre los años 2013 y 2023.
+
+-   **Formato:** ZIP
+
+-   **Nombre de los archivos contenidos:** poderes-judiciales-causas-no-penales-AAAA.csv
+
+-   **Rango temporal:** causas no penales iniciadas en el año AAAA
+
+-   **Observación:** la estructura de los archivos contenidos en este zip está descripta en el recurso "Poderes Judiciales - Causas no penales - muestreo"
+
+
+### Poderes judiciales - Actos procesales de causas no penales 2013-2023
+
+-   **Nombre:** poderes-judiciales-actos-procesales-no-penales-2013-2023.zip
+
+-   **Descripción del contenido:** Contiene los archivos con los datos correspondientes a actos procesales de causas no penales, elaborados a partir de datos primarios remitidos por los poderes judiciales provinciales, años 2013 y 2023.
+
+-   **Formato:** ZIP
+
+-   **Nombre de los archivos contenidos:** poderes-judiciales-actos-procesales-no-penales-AAAA.csv
+
+-   **Rango temporal:** actos procesales realizados en el año AAAA
 
 ### Poderes judiciales - Causas no penales - Muestreo
 
