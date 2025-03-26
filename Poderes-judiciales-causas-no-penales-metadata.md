@@ -51,7 +51,7 @@ Recursos disponibles
 -   **Nombre de los archivos contenidos:** poderes-judiciales-actos-procesales-no-penales-AAAA.csv
 
 -   **Rango temporal:** actos procesales realizados en el año AAAA
--   
+ 
 -   **Observación:** la estructura de los archivos contenidos en este zip está descripta en el recurso "Poderes Judiciales - Actos procesales no penales - muestreo"-   
 
 ### Poderes Judiciales - causas no penales 2013-2023
